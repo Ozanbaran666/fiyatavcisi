@@ -1,0 +1,52 @@
+:root {
+    --danger: #ff4757;
+    --success: #2ed573;
+    --primary: #5352ed;
+    --dark: #1e1e2e;
+}
+
+body {
+    background-color: var(--dark);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.app-wrapper {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.product-card.alert {
+    border: 2px solid var(--danger);
+    box-shadow: 0 0 15px rgba(255, 71, 87, 0.3);
+}
+
+.status-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.alert-bg { background: var(--danger); }
+.safe-bg { background: var(--success); }
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiyat Avcısı | Rakip Takip Sistemi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <header>
+            <h1><i class="fas fa-radar"></i> Fiyat Avcısı <span>v1.0</span></h1>
+            <p>Pazaryeri Fiyat Takip ve Rekabet Analizi</p>
+        </header>
+
+        <section class="monitor-area">
+            <div id="product-list" class="grid">
+                </div>
+        </section>
+
+        <div id="notification-bar"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
