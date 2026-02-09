@@ -1,4 +1,5 @@
-<img width="1197" height="423" alt="image" src="https://github.com/user-attachments/assets/24f1b6c2-5714-4ea5-b61d-06744559aa39" />
+<img width="1128" height="331" alt="image" src="https://github.com/user-attachments/assets/29f80fd3-5734-4bfa-8623-4b5a8f179440" />
+
 
 🛰️ Fiyat Avcısı 1.0
 Fiyat Avcısı, e-ticaret operasyonlarında kritik öneme sahip olan rakip fiyat takibi sürecini otomatize eden, Python (Flask) tabanlı bir veri izleme aracıdır. Bu proje, özellikle Amazon, Trendyol ve Hepsiburada gibi pazaryerlerinde satış yapan firmaların rekabet gücünü artırmak amacıyla tasarlanmıştır.
